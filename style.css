@@ -1,0 +1,42 @@
+body {
+  background-color: teal;
+  color: black;
+}
+
+#submit {
+  color: pink;
+  background-color: red;
+}
+
+#head {
+  text-align: center;
+  background-color: forestgreen;
+  color: white;
+  margin-bottom: 5%;
+}
+
+#submit {
+  margin: 1% 0 0 0;
+}
+
+#submit:hover {
+  background-color: gray;
+  color: white;
+}
+
+#radio-group {
+  margin-top: 2%;
+}
+
+#check {
+  margin: 2% 0 2% 0;
+}
+
+textarea {
+  margin: 1% 0 0 0;
+}
+
+#img {
+  width: 15%;
+  height: 30%;
+}

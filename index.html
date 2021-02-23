@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FreeCodeCamp - Survey Form Project</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div id="head">
+<h1 id="title">The Greatest of All Surveys</h1>
+<p id="description">Just another survey that's got too big for its' britches</p>
+<img id="img" src="https://d2dfxqxblmblx4.cloudfront.net/wp-content/uploads/2016/03/18151100/Survey-2-1024x1024.jpg">
+</div>
+
+<form id="survey-form">
+  <label id="name-label">Name:</label>
+  <input id="name" type="text" placeholder="name" required>
+  <label id="email-label">Email:</label>
+  <input id="email" type="email" placeholder="name@email.com" required>
+  <label id="number-label">Age:</label>
+  <input id="number" type="number" placeholder="age" min=1 max=80 required>
+  <label>Which best describes your current job?</label>
+  <select id="dropdown" name="jobs" placeholder="jobs">
+    <option value="select">Select an Option</option>
+    <option value="flipper">Burger Flipper</option>
+    <option value="salesman">Used Car Salesman</option>
+    <option value="programmer">Software Developer</option>
+    <option value="lawyer">Lawyer</option>
+    <option value="N/A">N/A</option>
+  </select>
+  <fieldset id="radio-group" name="group1">
+  <label>What is your most beloved hobby?</label>
+  <br>
+  <label id="selector1">Video Games</label>
+  <input type="radio" name="group1" value="gaming">
+  <label id="selector2">Reading</label>
+  <input type="radio" name="group1" value="reading">
+  <label id="selector3">Building Stuff</label>
+  <input type="radio" name="group1" value="construction">
+    </fieldset>
+  <fieldset id="check">
+    <label>What is your dream car?</label>
+    <label>Chrysler Pacifica</label>
+    <input type="checkbox" value="Pacifica">
+    <label>Tesla Model Y</label>
+    <input type="checkbox" value="Tesla">
+    <label>Toyota Corolla</label>
+    <input type="checkbox" value="Corolla">
+    <label>Ford Fiesta</label>
+    <input type="checkbox" value="Fiesta">
+    <label>Ford Mustang</label>
+    <input type="checkbox" value="Mustang">
+  </fieldset>
+  <label id="comment">Please leave any comments or suggestions below!</label>
+  <br>
+  <textarea></textarea>
+  <br>
+  <button id="submit">Submit</button>
+</form>
+<!-- partial -->
+  
+</body>
+</html>
